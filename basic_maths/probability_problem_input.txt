@@ -1,0 +1,23 @@
+You’re considering a $100 bet with your friend. If `n` consecutive
+  fair coin flips result in all heads, then you win - else your friend wins. Your friend agrees to let you attempt
+  the bet as many times as you’d like. Assuming you attempt the bet `x`
+  times, what's the probability that you’ll win the bet at least once? As well, what should your winning payout ($100, $200, etc)
+  be to ensure that you at least break even given unlimited attempts of the bet?
+
+  Write a function which takes in the number of consecutive coin flips (n) and the
+  number of bet attempts (x) and returns a list containing:
+
+1. Firstly, the probability that you win the bet at least once</li>
+2. Secondly, your required winning payout</li>
+
+Note that:
+1. You can assume a fair coin.</li>
+2. You shouldn't use any libraries.</li>
+3.  Your output values will automatically be rounded to the fourth decimal.
+
+Sample Input
+n= 3
+x = 10
+
+Sample Output
+[73.6…, 135.6…]
